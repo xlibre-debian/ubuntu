@@ -1,0 +1,28 @@
+Origin: XLibre
+Label: XLibre Ubuntu Packages
+Codename: main
+Date: Mon, 22 Dec 2025 22:10:05 UTC
+Architectures: amd64
+Components: stable
+Description: Ubuntu repository for XLibre.
+MD5Sum:
+ bd76128dc7b582fcbe0a63e5135ebf51 62988 stable/binary-amd64/Packages
+ 9a3512b8ee21d19089973abbfc4cf96a 15438 stable/binary-amd64/Packages.gz
+ 4d7c1373d00113ada72c25bc6437026c 126 stable/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 stable/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 stable/source/Sources.gz
+ f984d2318b91e6a311234e29ba191677 127 stable/source/Release
+SHA1:
+ 36367b20d8c095d4cbe17e7642162b378f8a127d 62988 stable/binary-amd64/Packages
+ 0313b1b77bb39b2c4040e0d66674f2ba7fac5f64 15438 stable/binary-amd64/Packages.gz
+ ff6045000723ffa77b91ac814c42597b85c98aa0 126 stable/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 stable/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 stable/source/Sources.gz
+ 46a16369098e3fdff0363c4746c816e65c5f2728 127 stable/source/Release
+SHA256:
+ 6eb9dd5247d75a2e65bc500dd265e811f9e3010d2af03a438681d2680b042c17 62988 stable/binary-amd64/Packages
+ 680e3b2232a3609b2e121a8e3be047435e3e3dd2b2f039957cb02f08f14ca45b 15438 stable/binary-amd64/Packages.gz
+ f775801b110685fb9b928cd88d5510af2b01f9d25b756e44a9ae16bb4e2d1a34 126 stable/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 stable/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 stable/source/Sources.gz
+ 67c0cdeaa726adfa62ae1387bc02e08a36d4f4872e687f0a56ee998774b4a4ba 127 stable/source/Release
