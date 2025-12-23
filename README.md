@@ -1,8 +1,5 @@
 # Ubuntu Repository for XLibre
 
-**DO NOT USE. This is UNTESTED! NEVER install this on your host!**
-*Once it is confirmed to work then this warning will be removed.*
-
 ```sh
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl
