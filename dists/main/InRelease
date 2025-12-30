@@ -4,44 +4,44 @@ Hash: SHA512
 Origin: XLibre
 Label: XLibre Ubuntu Packages
 Codename: main
-Date: Sat, 27 Dec 2025 17:54:45 UTC
-Architectures: amd64
+Date: Tue, 30 Dec 2025 02:32:23 UTC
+Architectures: amd64 arm64
 Components: stable
 Description: Ubuntu repository for XLibre.
 MD5Sum:
  6e84db880812b98bc0cb752ec72c912b 62988 stable/binary-amd64/Packages
  e65a321e9a01101ebb8a3907765abeb8 15436 stable/binary-amd64/Packages.gz
  4d7c1373d00113ada72c25bc6437026c 126 stable/binary-amd64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 stable/source/Sources
- 7029066c27ac6f5ef18d660d5741979a 20 stable/source/Sources.gz
- f984d2318b91e6a311234e29ba191677 127 stable/source/Release
+ e44c7ad3f0ac1b4517a83d9c58300f5d 54626 stable/binary-arm64/Packages
+ 2f80124e64e968e495fc9529ed3c389b 13309 stable/binary-arm64/Packages.gz
+ 29416f362ad7ddc982ad1dd340d43038 126 stable/binary-arm64/Release
 SHA1:
  33c5b7eb311e2082c0b36b0c458b61723f43f58d 62988 stable/binary-amd64/Packages
  1fc34004ac020b96d5c89e010d99dd01c13fe563 15436 stable/binary-amd64/Packages.gz
  ff6045000723ffa77b91ac814c42597b85c98aa0 126 stable/binary-amd64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 stable/source/Sources
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 stable/source/Sources.gz
- 46a16369098e3fdff0363c4746c816e65c5f2728 127 stable/source/Release
+ fda23ec97634b37f8f6fc4471b429e8f004d217e 54626 stable/binary-arm64/Packages
+ 38818cc626ae6c6df5d673a59470e6ea6bd21c2a 13309 stable/binary-arm64/Packages.gz
+ 8777bf7c7f31211fa06a7175ea0d5b2ab78be54e 126 stable/binary-arm64/Release
 SHA256:
  3be800c0f80dc1c51648228f5e75652975038b0abe5ac80bf226245718958338 62988 stable/binary-amd64/Packages
  ff83548334aa3fdf573fda4118419b9c206f8d5bb0e1cd71c6db45ce4508382d 15436 stable/binary-amd64/Packages.gz
  f775801b110685fb9b928cd88d5510af2b01f9d25b756e44a9ae16bb4e2d1a34 126 stable/binary-amd64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 stable/source/Sources
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 stable/source/Sources.gz
- 67c0cdeaa726adfa62ae1387bc02e08a36d4f4872e687f0a56ee998774b4a4ba 127 stable/source/Release
+ 8539c11b22d85fc6a817ec84d6c3cc8440048728f03d2881fba05ebf2129fca7 54626 stable/binary-arm64/Packages
+ a5e6d04afc173159b6584c30c6547bf771e05caaf99a388ccc316231ef99f174 13309 stable/binary-arm64/Packages.gz
+ cb6d248b20da56f2f6282a7c25cd0e0a89e94f1eb9fd044944ae2a0a54e4f0fe 126 stable/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmlQHWUACgkQ15zW8bUj
-lPqHpg//bmwX5srm/VGeTyDbE4Z4lWTX1xYsghOPjuy/dXO8KVgFhQ/UWITj4jjF
-lAstC6RSIrQOzODvIn4MVAeniVUCTK01urkjXiRINgR1Hye68osnb39G3XiqTpGI
-I1FqjRGqqfuJiR//+RJh3YI4R8qIuxuAmYZlCZaxbA3q4GB+BL8CQeOsnwzj89fj
-modKmhWoAiP9TDC43Wd8BYgerCJC0Ok9rOjC6Ik/nPvOFd3nqr5XpKRWiHVwVaqQ
-LdVAqKLql3BCP4AUwPlmaVZxot56X34EPnaEQKaDI2IjjzkwrYjpOpMoaWjrNg6W
-hNaIKHAfXBoNkGntDJ2BnnN7ucXy+/Y66h1B52PPGMISnz/3UxyOGQxqlS+IBSML
-SiY16CtkMeu/N1gnVLppPPbyVTzYbCKz2DDvcIEsxv2zLnzwT0fvcG2EthJR5y0P
-t2T2O3vJUQDvabdLBlxTG+z0YF7CHyfbtxTD9BsYeW4eJ2SkXXtsfEKLXp+Hgscg
-5Yu3VZpzsiR8RHvOYjMTRL5EvzEmzYS6qtr4A0HCYH/xdXgdkPX/q0K9AphvqrVk
-TJQdu2axSFkIeq2QJ4wMtrlRBd3ljQkOLd5z5DBvYPy6abCED0JqMkcDedNJyrGd
-3aCSnTmLD5EAvsyVN22FwmAAuOpukcGGIieihLSMDdmgMJyWIoE=
-=NxzK
+iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmlTObgACgkQ15zW8bUj
+lPob/A/9HQqwVUCwFhYN4O9qeMANmEL1IEMabXsM0ej8NdLsLEYd+fofaf3/9Cn1
+YxEGtXKVFwmUO1gXdp3tzKnHoMRRNqtfo33ZKimFDXUPjj68KrlbIZ95ll5OpNGL
+IGWg4nFRmL13AxHA6WDCFxuvYZyvixbnDqwzvrpyMJgBN5GkSZFfGj5ItJBQGNQk
+ju0Wn6oqlT0LKAlOa28RVCyhpKA+5Oz6PFCeF4O0rW/auzmDaRKYYeQGOn9Prj3m
+aT8vFB6JxzR4UWu2LVzeLqs5ZJ1Z+Vw5yFvZ9aBspN6FuMTWPbebFPlch9idkmZQ
+qvlDszVWX4sAwm995e5qRUO+ryh2LdyQ4IMkTbuMYjetiUohBAE7n5kdVQslEkrU
+5OXpLi0WrymDbwri6TW/jtJQI/H6NosChrf5eOgzI6QuZ2dLghovRFN7eQjWMVt8
+OuCsYHe8IL0WhG8EKp0fZUvRq04rLYqcDBwM1N9IxbIDYx90DNQo+bB+Ec2HD7h7
+5pFpskLfaJe3b1+1g4HX+Vah9QqLB5hXZRT9KRrvYll25JBq3tzHBA62SumFFQOB
+dae9XX0M33YF39hE0uGYR7C+YEHKxtA9c3cbJmOpFEtqRUo6V6wL3qjQQU2/GRab
+SZnr1cendAhmcOfBjdVb9Wko+IYvqvhOcLZFFH90hDK377fRVaI=
+=iVrt
 -----END PGP SIGNATURE-----

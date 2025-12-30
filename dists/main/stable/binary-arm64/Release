@@ -1,0 +1,5 @@
+Component: stable
+Origin: XLibre
+Label: XLibre Ubuntu Packages
+Architecture: arm64
+Description: Ubuntu repository for XLibre.
