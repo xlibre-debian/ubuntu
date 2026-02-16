@@ -1011,22 +1011,22 @@ Description: XLibre X server -- output driver metapackage
  to only have certain drivers installed.
 
 Package: xserver-xlibre-video-amdgpu
-Version: 25.1.0-1
+Version: 25.1.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 189
 Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-amdgpu
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.0-1)
+Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.0-1_amd64.deb
-Size: 71490
-SHA256: d1b0e1eca9ac41679ad5d8e8ae14d01c2caf1785dbe9f7125887cebd604479b7
-SHA1: 61dd3bb17ae65f71fbd54aa91adef617d2d37800
-MD5sum: a699d7ec85248cbea242b8e656757b41
+Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.1-1_amd64.deb
+Size: 71590
+SHA256: c154b8cf914fac9136303289fbcbf89bec401257c540b531d069325f6fdae599
+SHA1: 417674185dd52c446b8e2fb6b47043ecb53ec9a1
+MD5sum: 52b5efbba301a6705f60db394331405d
 Description: XLibre X server -- AMDGPU display driver
  This package provides the 'amdgpu' driver for the AMD Radeon cards. The
  following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
@@ -1038,22 +1038,22 @@ Description: XLibre X server -- AMDGPU display driver
  This package is built from the XLibre xf86-video-amdgpu driver module.
 
 Package: xserver-xlibre-video-ati
-Version: 1:25.0.0-1
+Version: 1:25.0.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 38
 Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0), xserver-xlibre-video-radeon
 Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
 Conflicts: xserver-xorg-video-ati
-Provides: xlibre-driver-video, xserver-xorg-video-ati (= 1:25.0.0-1)
+Provides: xlibre-driver-video, xserver-xorg-video-ati (= 1:25.0.1-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati_25.0.0-1_amd64.deb
-Size: 7200
-SHA256: 7ca453636c9a94b01a45817b4228a9bd2f4f6123454ee221c2b26bae53040c0d
-SHA1: d56ef925509aa98da05cf274a11998d0e377709f
-MD5sum: 1b2a1eb7a2060d4c881edf8f65a33893
+Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati_25.0.1-1_amd64.deb
+Size: 7216
+SHA256: a6fec1e296ea62a8c91a860cae59c01e5a8a501d29421f5af23839f58f2c4f57
+SHA1: a5aa5f61044cbfe4e2d69fa91625c73200060169
+MD5sum: f1a9399526ed04228538c3cfc1b64ac0
 Description: XLibre X server -- AMD/ATI display driver wrapper
  This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
  Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
@@ -1205,22 +1205,22 @@ Description: XLibre X server -- QXL display driver
 
 Package: xserver-xlibre-video-radeon
 Source: xserver-xlibre-video-ati
-Version: 1:25.0.0-1
+Version: 1:25.0.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 509
 Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-radeon
-Provides: xserver-xorg-video-radeon (= 1:25.0.0-1)
+Provides: xserver-xorg-video-radeon (= 1:25.0.1-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon_25.0.0-1_amd64.deb
-Size: 158452
-SHA256: 43c53118c01b5670eb8041b3112ba344b9be73d670476295f2d5e2d91370ab84
-SHA1: ab901202c80f4cf8ae5764b3092d2c84ca04043c
-MD5sum: 9bab02ccef19c894dc7085a0d953e977
+Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon_25.0.1-1_amd64.deb
+Size: 158494
+SHA256: c44def7843adc2f448b409075f103686aa5d4eefbffd8340907d16c45c20248d
+SHA1: c9e5ecd6410732251b51d9b449cc8c4772b92ceb
+MD5sum: 02fe2d6a4c222ca885a2b7f27c44c5ba
 Description: XLibre X server -- AMD/ATI Radeon display driver
  This package provides the 'radeon' driver for the AMD/ATI cards. The
  following chips should be supported: R100, RV100, RS100, RV200, RS200,
