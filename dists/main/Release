@@ -1,28 +1,28 @@
 Origin: XLibre
 Label: XLibre Ubuntu Packages
 Codename: main
-Date: Mon, 16 Feb 2026 15:12:40 UTC
+Date: Mon, 16 Feb 2026 16:55:32 UTC
 Architectures: amd64 arm64
 Components: stable
 Description: Ubuntu repository for XLibre.
 MD5Sum:
- 6aaa98f24e468928ad3dfd1deb7f3afe 63409 stable/binary-amd64/Packages
- a36e70081b624de1f773f2e44d767935 15514 stable/binary-amd64/Packages.gz
+ 9e1edb2825b6ef237e1bea2d6858799a 63561 stable/binary-amd64/Packages
+ 20a5f3b39115e960629b5f86093f02f2 15558 stable/binary-amd64/Packages.gz
  4d7c1373d00113ada72c25bc6437026c 126 stable/binary-amd64/Release
- 5b5e4759faa915f840a937f3d9c9a1bb 56923 stable/binary-arm64/Packages
- 11764a7776024cce226ca4b504020fcc 13903 stable/binary-arm64/Packages.gz
+ 1ab4b6e0d0e7eea6ae38cd838b50fac7 57075 stable/binary-arm64/Packages
+ bf7e39122b859c2ef11a04f5733aacb9 13946 stable/binary-arm64/Packages.gz
  29416f362ad7ddc982ad1dd340d43038 126 stable/binary-arm64/Release
 SHA1:
- f4b70c3cef00355d54aaf43232c131d4fe2972d4 63409 stable/binary-amd64/Packages
- b48248f2009146e4eea71442c070739fe43761aa 15514 stable/binary-amd64/Packages.gz
+ fb5171ec829b280d080ef31dd597bdd4eb385a20 63561 stable/binary-amd64/Packages
+ a15e50c7d640815980574bc8acfc6d4cb2af5904 15558 stable/binary-amd64/Packages.gz
  ff6045000723ffa77b91ac814c42597b85c98aa0 126 stable/binary-amd64/Release
- 3841c04d554c17f77be7d82f663a6cac9ca53ace 56923 stable/binary-arm64/Packages
- c3a3422500069da5b8ddc64146f368db9764d3b8 13903 stable/binary-arm64/Packages.gz
+ c6d4e59afa7427678c814d53ac862ed0b75b63dd 57075 stable/binary-arm64/Packages
+ 84fee3244d2e927508a65012faa260b7615a9837 13946 stable/binary-arm64/Packages.gz
  8777bf7c7f31211fa06a7175ea0d5b2ab78be54e 126 stable/binary-arm64/Release
 SHA256:
- cbfa3c589e4e51ddf95e32c4b8fbe31967c44430f76957baec3e5cc4d9c4b653 63409 stable/binary-amd64/Packages
- 55c7294e7aa9451fa24ad7f4ec5aa7886993628108619c6183bfcc14f3aeacab 15514 stable/binary-amd64/Packages.gz
+ b272d64157da67a7291613f054726fb15b23691d13e71cd435ee9752626b0c3f 63561 stable/binary-amd64/Packages
+ ca1cccee6845a6057023ad5c012be2c9e51ebc2260fe0c53665ad9b10394e7aa 15558 stable/binary-amd64/Packages.gz
  f775801b110685fb9b928cd88d5510af2b01f9d25b756e44a9ae16bb4e2d1a34 126 stable/binary-amd64/Release
- 095a425fdd9b03861b0773283f88ead9d720f6ee51cf1ab4d70b1a9fc26d1cbc 56923 stable/binary-arm64/Packages
- 19bc69c1e2fc199bac162a727e369c7bf0ddec6a719d3d0d699d566a2c592870 13903 stable/binary-arm64/Packages.gz
+ 6fb33ce7d4971d7edd1f6bfca014ccdaa32dabde32608ac67367a1188b818e63 57075 stable/binary-arm64/Packages
+ b019ffb5b3c3706bbda5caa20b387e867c28f937f5d84cbf559e5b86b6fc3024 13946 stable/binary-arm64/Packages.gz
  cb6d248b20da56f2f6282a7c25cd0e0a89e94f1eb9fd044944ae2a0a54e4f0fe 126 stable/binary-arm64/Release

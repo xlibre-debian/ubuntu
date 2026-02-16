@@ -1011,22 +1011,22 @@ Description: XLibre X server -- output driver metapackage
  to only have certain drivers installed.
 
 Package: xserver-xlibre-video-amdgpu
-Version: 25.1.1-1
+Version: 25.1.1-2
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 189
-Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0), mesa-common-dev (>= 25.2.6), mesa-libgallium (>= 25.2.6), mesa-va-drivers (>= 25.2.6), mesa-vdpau-drivers (>= 25.2.6), mesa-vulkan-drivers (>= 25.2.6)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-amdgpu
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-1)
+Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-2)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.1-1_amd64.deb
-Size: 71590
-SHA256: c154b8cf914fac9136303289fbcbf89bec401257c540b531d069325f6fdae599
-SHA1: 417674185dd52c446b8e2fb6b47043ecb53ec9a1
-MD5sum: 52b5efbba301a6705f60db394331405d
+Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.1-2_amd64.deb
+Size: 71782
+SHA256: 7d6694e079c50f735211c44327ec6ca466b6f685395752191fb778ffc89650f1
+SHA1: 7be4c68d1ecb73a469954bec8efaa1d232de7146
+MD5sum: bc5ad18caacc7706e0784c2004a80a02
 Description: XLibre X server -- AMDGPU display driver
  This package provides the 'amdgpu' driver for the AMD Radeon cards. The
  following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
