@@ -347,22 +347,22 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 18
-Depends: xserver-xlibre (>= 1:7.8+4), libgl1, libgl1-mesa-dri, libglu1-mesa, xfonts-base, xfonts-100dpi, xfonts-75dpi, xfonts-scalable, x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit, xfonts-utils, xkb-data, xorg-docs-core, xterm | x-terminal-emulator
+Depends: xserver-xlibre (>= 1:7.8+5), libgl1, libgl1-mesa-dri, libglu1-mesa, xfonts-base, xfonts-100dpi, xfonts-75dpi, xfonts-scalable, x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit, xfonts-utils, xkb-data, xorg-docs-core, xterm | x-terminal-emulator
 Suggests: xorg-docs, x11-xfs-utils
 Conflicts: xorg
-Provides: x-window-system, x-window-system-core, xorg (= 1:7.8+4)
+Provides: x-window-system, x-window-system-core, xorg (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xlibre_7.8+4_amd64.deb
-Size: 3422
-SHA256: f5f8fc3a23bfcb8b495c0254dbc54dd7bfe97453e2c824c1cbf803af3c369452
-SHA1: 31701987a835738890b8de9fbba17a6af241ac00
-MD5sum: 2ae4fe9be6365000bb7339864335121e
+Filename: pool/stable/x/xlibre/xlibre_7.8+5_amd64.deb
+Size: 3500
+SHA256: dbe89f8eb559e14747f0fafce4051047a0fb88a7c5f07aa32efedda074c6662e
+SHA1: 05dcb1a7d7ef9fb52f4405392038d5bbeb0ceb9c
+MD5sum: 39355ee58c7d57ab72d57c6715537497
 Description: XLibre X Window System
  This metapackage provides the components for a standalone
  workstation running the X Window System.  It provides the X libraries, an X
@@ -392,21 +392,21 @@ Description: OpenPGP archive certificates of XLibre
 
 Package: xlibre-dev
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 12
 Depends: libfontenc-dev, libfs-dev, libice-dev, libsm-dev, libx11-dev, libxau-dev, libxaw7-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxdmcp-dev, libxext-dev, libxfixes-dev, libxfont-dev, libxft-dev, libxi-dev, libxinerama-dev, libxkbfile-dev, libxmu-dev, libxmuu-dev, libxpm-dev, libxrandr-dev, libxrender-dev, libxres-dev, libxss-dev, libxt-dev, libxtst-dev, libxv-dev, libxvmc-dev, libxxf86dga-dev, libxxf86vm-dev, x11proto-dev, xserver-xlibre-dev, xtrans-dev
 Conflicts: xorg-dev
-Provides: xorg-dev (= 1:7.8+4)
+Provides: xorg-dev (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xlibre-dev_7.8+4_all.deb
-Size: 3128
-SHA256: fdba6b359c9d7dfe88f0a9edfe83996553b71b77be3170a64f669484227b2b14
-SHA1: a55845c95e508b07027c7fe90a138e6e52361d77
-MD5sum: 03d946e8753d0994376572762536c706
+Filename: pool/stable/x/xlibre/xlibre-dev_7.8+5_all.deb
+Size: 3210
+SHA256: 121c220b352e0fa296c6005c84b1f564ae371fcf33671ae3e05719352f68e1bb
+SHA1: cc48f329aa0668db5df2a92badd0ecd3af01c857
+MD5sum: c9cb49cc3273b83bcd7dc2e9dc0baf84
 Description: XLibre X Window System development libraries
  This metapackage provides the development libraries for the XLibre X Window
  System.
@@ -446,22 +446,22 @@ Description: XLibre X server - source files
 
 Package: xlibre-x11-common
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 275
 Depends: lsb-base
 Conflicts: x11-common
-Provides: x11-common (= 1:7.8+4)
+Provides: x11-common (= 1:7.8+5)
 Multi-Arch: foreign
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xlibre-x11-common_7.8+4_all.deb
-Size: 215598
-SHA256: b22bb32351652c2e4eacba6753fbcb8ea6a5fb87115a556354715ebe9915e7fa
-SHA1: fa5b899531a14fa36b28d963b65845e9f593edf6
-MD5sum: b2f74e52317c9e059468325f1d345cbc
+Filename: pool/stable/x/xlibre/xlibre-x11-common_7.8+5_all.deb
+Size: 215626
+SHA256: 0b2e8323cb6cefb2875f103e233caa88b70b79640b56906daee6e6a532540ac8
+SHA1: 1c053427b6598b91d0bac671f11daad8a8188721
+MD5sum: 7aba92e3771fe2f074fa4642c702bd22
 Description: X Window System (X.Org) infrastructure
  x11-common contains the filesystem infrastructure required for further
  installation of the X Window System in any configuration; it does not
@@ -476,22 +476,22 @@ Description: X Window System (X.Org) infrastructure
 
 Package: xlibre-xbase-clients
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 12
 Depends: x11-apps, x11-session-utils, x11-utils, x11-xkb-utils, x11-xserver-utils, xauth, xinit
 Suggests: x11-xfs-utils
 Conflicts: xbase-clients
-Provides: xbase-clients (= 1:7.8+4)
+Provides: xbase-clients (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xlibre-xbase-clients_7.8+4_all.deb
-Size: 3108
-SHA256: ddb2741d3ac7abdcb3d8150853a4b668ff308932214d4ddfa6f9b9f342913b35
-SHA1: d7a68cb5f9a3a5b056bc9d81d46fd9fed67596c1
-MD5sum: 7299dcfd68a35b5728f031d4257556b2
+Filename: pool/stable/x/xlibre/xlibre-xbase-clients_7.8+5_all.deb
+Size: 3190
+SHA256: faded6b18e55b64567a49e3ff3630ba1fbf47202ba9693411e9b120775f6282c
+SHA1: 5b8a1ecdadba10ae597e9cbcdea31003cd035797
+MD5sum: bcec8cb7685179b7f9784661ecaf172a
 Description: miscellaneous X clients - metapackage
  An X client is a program that interfaces with an X server (almost always via
  the X libraries), and thus with some input and output hardware like a
@@ -506,22 +506,22 @@ Description: miscellaneous X clients - metapackage
 
 Package: xlibre-xutils
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 12
 Depends: x11-utils, x11-xserver-utils, x11-session-utils, xfonts-utils
 Suggests: x11-xfs-utils
 Conflicts: xutils
-Provides: xutils (= 1:7.8+4)
+Provides: xutils (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xlibre-xutils_7.8+4_all.deb
-Size: 3002
-SHA256: 70c2d2fd4bb42a3253eaa0233cf8328c396eab3b4bbffc26b4ee2f948e236a36
-SHA1: d90897de8df94455e5dcae13a452b61b2776635d
-MD5sum: 88cc170bdf39397f4452937d8e302e80
+Filename: pool/stable/x/xlibre/xlibre-xutils_7.8+5_all.deb
+Size: 3084
+SHA256: 21da6c2f2d8b4026f577110cef2734bc9a8b7a6c6055cd33dedd148031e00168
+SHA1: f58dd07b8a6aba14603d900790d6c76bd6c28a65
+MD5sum: 09e43aa944b46d5d8cdec4e6c1d6dfb9
 Description: X Window System utility programs metapackage
  xutils provides a set of utility programs shipped with the X Window System.
  Many of these programs are useful even on a system that does not have any X
@@ -533,22 +533,22 @@ Description: X Window System utility programs metapackage
 
 Package: xserver-xlibre
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 199
 Depends: xserver-xlibre-core, xserver-xlibre-video-all | xlibre-driver-video, xserver-xlibre-input-all | xlibre-driver-input, xkb-data, x11-xkb-utils
 Recommends: libgl1-mesa-dri, xserver-xlibre-legacy
 Conflicts: xserver-xorg
-Provides: xserver, xserver-xorg (= 1:7.8+4)
+Provides: xserver, xserver-xorg (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xserver-xlibre_7.8+4_amd64.deb
-Size: 58244
-SHA256: d73a0e2aa8e3303b93aefc97cfec59e36f92fc58c42d81c5eb4a734b68ad3103
-SHA1: d657425640eb23b061a50562ca81f85046dff880
-MD5sum: 70d154ee491402137e40eb6a9b8bbe70
+Filename: pool/stable/x/xlibre/xserver-xlibre_7.8+5_amd64.deb
+Size: 58324
+SHA256: 0f8ac094de17f2d06265a373553de43bb5c9b814d3511f6b25b1bb53da01a25f
+SHA1: feb985a736184c363667ebb24dca54b040c48744
+MD5sum: 2db76210421e5cbbc3f21de5901c9e99
 Description: XLibre X server
  This package depends on the full suite of the server and drivers for the
  XLibre X server.  It does not provide the actual server itself.
@@ -643,22 +643,22 @@ Description: XLibre X server - development files
 
 Package: xserver-xlibre-input-all
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 12
 Depends: xserver-xlibre-input-libinput
 Recommends: xserver-xlibre-input-wacom
 Conflicts: xserver-xorg-input-all
-Provides: xserver-xorg-input-all (= 1:7.8+4)
+Provides: xserver-xorg-input-all (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xserver-xlibre-input-all_7.8+4_amd64.deb
-Size: 2924
-SHA256: eab90d3b0f6776b9a58faf83361a4cbe1e94b5cffe76394bcf02170452ede55e
-SHA1: 6273d185c9fc3d4bac132ae7ce482f26b2722067
-MD5sum: a558f43a8cb24299b75eb22da4416bf4
+Filename: pool/stable/x/xlibre/xserver-xlibre-input-all_7.8+5_amd64.deb
+Size: 3008
+SHA256: d6f9a94b68235607b8ce5636688d85fcf8f002d833e58925bed47268ee3c6be5
+SHA1: db93dcff245bf5276cb6eac97f6a9586ede9ef10
+MD5sum: a193efeca231937f53b60f62e5ef1974
 Description: XLibre X server -- input driver metapackage
  This package depends on the full suite of input drivers for the XLibre X server
  (XLibre).  It does not provide any drivers itself, and may be removed if you wish
@@ -1040,7 +1040,7 @@ Description: setuid root XLibre server wrapper
 
 Package: xserver-xlibre-video-all
 Source: xlibre
-Version: 1:7.8+4
+Version: 1:7.8+5
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 12
@@ -1048,15 +1048,15 @@ Depends: xserver-xlibre-video-amdgpu, xserver-xlibre-video-ati, xserver-xlibre-v
 Recommends: xserver-xlibre-video-intel, xserver-xlibre-video-qxl
 Conflicts: xserver-xorg-driver-all, xserver-xorg-video-all
 Replaces: xserver-xorg-driver-all
-Provides: xserver-xorg-video-all (= 1:7.8+4)
+Provides: xserver-xorg-video-all (= 1:7.8+5)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre/xserver-xlibre-video-all_7.8+4_amd64.deb
-Size: 2968
-SHA256: 2bdef9ef6ef45c27f8074534c1c4f3c5205ab8ba12cdacb56a6ddadee30ee844
-SHA1: e53c60ce09d5c5acb97ef1456de14b6ed52323a1
-MD5sum: 45693d0237b22f9c641d1812a3245817
+Filename: pool/stable/x/xlibre/xserver-xlibre-video-all_7.8+5_amd64.deb
+Size: 3052
+SHA256: 0b88f3cb2af6d55b3738a4df94865d6e511e1bd0eafdf5e8f21c348b04678971
+SHA1: 1d5fdf6778368b5e6e4d454189ea456455fab5d7
+MD5sum: c1e8435e44574873c8fbb0b76e47fa8b
 Description: XLibre X server -- output driver metapackage
  This package depends on the full suite of output drivers for the XLibre X server
  (XLibre).  It does not provide any drivers itself, and may be removed if you wish
