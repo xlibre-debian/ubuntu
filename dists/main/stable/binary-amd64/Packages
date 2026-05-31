@@ -1173,21 +1173,21 @@ Description: XLibre X server -- fbdev display driver
  This package is built from the XLibre xf86-video-fbdev driver module.
 
 Package: xserver-xlibre-video-intel
-Version: 3:25.0.1-1
+Version: 3:25.0.2-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 3196
 Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.62), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxss1, libxtst6, libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-intel
-Provides: xlibre-driver-video, xserver-xorg-video-intel (= 3:25.0.1-1)
+Provides: xlibre-driver-video, xserver-xorg-video-intel (= 3:25.0.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-intel/xserver-xlibre-video-intel_25.0.1-1_amd64.deb
-Size: 1685394
-SHA256: dfc8b0b9d086ddbd81d92ad41e0ed1b8c7f808f9a70d4634a241c56dd3b1d578
-SHA1: 521b6b5c3c23ba6dbb837494dd3f9ffa04d4a658
-MD5sum: 4ae9c05bde6de3c44074e2c9d652ef0b
+Filename: pool/stable/x/xserver-xlibre-video-intel/xserver-xlibre-video-intel_25.0.2-1_amd64.deb
+Size: 1685432
+SHA256: d7009391790d7bbdd4495d15815c9343533973f328256d9d4bb2dcef79cdc5ab
+SHA1: 5f1b1706ccc177e2e42ed6ef7c668d68703f5f6e
+MD5sum: a3eec985c7e1deded60361fefedbaf38
 Description: XLibre X server -- Intel i8xx, i9xx display driver
  This package provides the driver for the Intel i8xx and i9xx family
  of chipsets, including i810, i815, i830, i845, i855, i865, i915, i945
