@@ -420,20 +420,20 @@ Description: XLibre X Window System development libraries
 
 Package: xlibre-server-source
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 3057
+Installed-Size: 3058
 Conflicts: xorg-server-source
-Provides: xorg-server-source (= 2:25.2.1-1)
+Provides: xorg-server-source (= 2:25.2.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xlibre-server-source_25.2.1-1_all.deb
-Size: 3036798
-SHA256: bc8abdc0b5f3cd79e819b14b75312bc4d2087b0471884c9d9cd8ba585ae08abe
-SHA1: d9f1b6b7ee42d8d33198c4eecc7e257b8c09322d
-MD5sum: 05f56d47e2bcbb6025fda8645a0e2d3c
+Filename: pool/stable/x/xlibre-server/xlibre-server-source_25.2.2-1_all.deb
+Size: 3038190
+SHA256: ee9cc8dc41bb6444ac1b3974b4e7e6fc15d6c51f6a0ed004666002e0038a5d4b
+SHA1: 7defefc6609c7ae36c52da0ee402edc36ea209dd
+MD5sum: 762279edb0bd579569cbdc05c3abca77
 Description: XLibre X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the XLibre ('XLibre')
@@ -555,7 +555,7 @@ Description: XLibre X server
 
 Package: xserver-xlibre-common
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 147
@@ -563,26 +563,26 @@ Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Conflicts: xserver-common
 Replaces: xserver-xorg-core (<< 2:1.5.2)
-Provides: xserver-common (= 2:25.2.1-1)
+Provides: xserver-common (= 2:25.2.2-1)
 Multi-Arch: foreign
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-common_25.2.1-1_all.deb
-Size: 28166
-SHA256: 6a97aed82ff3e1284520229dd71bb042dfd99745d6529209d2779fe2cf4199f3
-SHA1: 71e40e00d0ce79b003c65d691f0edc726c8bcbad
-MD5sum: c292c94bd2f1245eae7ea9b90e587e28
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-common_25.2.2-1_all.deb
+Size: 28188
+SHA256: fb3e7c030c3ff63a8800e5967caed3d8865ce0afbebe58348723a95898d1d6ea
+SHA1: d57de0195bf4d472c7cb0a8514c01e0c91f42f41
+MD5sum: f42941a8203f5c3ef09bb89db67c4010
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
 
 Package: xserver-xlibre-core
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 4662
-Depends: xserver-xlibre-common (>= 2:25.2.1-1), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Installed-Size: 4598
+Depends: xserver-xlibre-common (>= 2:25.2.2-1), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-core, xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
@@ -592,11 +592,11 @@ Provides: xorg-input-abi-26, xorg-video-abi-25, xorg-video-abi-28, xserver-xorg-
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-core_25.2.1-1_arm64.deb
-Size: 1520658
-SHA256: 70718f73f4e57e45d7ee799cdafbfd498701bbf5d3602197d2ee1981f8cd0927
-SHA1: 8a9047536ed12059bf0c52480089404b9b0d1558
-MD5sum: d102f739aa6197db45606799daf0b44a
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-core_25.2.2-1_arm64.deb
+Size: 1519768
+SHA256: b587382c60f488ef39ab6a329bd47475aed79636cd8615526d6f1a45011fb446
+SHA1: 367126ae9e580c154c51dc2cd7d2819eb1277773
+MD5sum: cf86da89e21eb958fe760be72d6513af
 Description: XLibre X server - core server
  The XLibre X server is an X server for several architectures and operating
  systems, which is derived from the XFree86 4.x series of X servers.
@@ -611,21 +611,21 @@ Description: XLibre X server - core server
 
 Package: xserver-xlibre-dev
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 1060
 Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2025.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
 Conflicts: xserver-xorg-dev
-Provides: xserver-xorg-dev (= 2:25.2.1-1)
+Provides: xserver-xorg-dev (= 2:25.2.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-dev_25.2.1-1_arm64.deb
-Size: 161454
-SHA256: 227d728ef4aac5a2e29f31f180135492d8858c60c8c135cbd4bb880eb0d41833
-SHA1: ace23ffa8b668937ad6a8c9cd7af876819c2f49b
-MD5sum: 9395ae0238ad5d9068fd1139aca464f2
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-dev_25.2.2-1_arm64.deb
+Size: 161502
+SHA256: 23341ce7eca7cb965d6fa78d3840aff426b963b8e1792af330d46525691f6d1c
+SHA1: ed855361a84a6ff78b3899485999b4c9e9a3f600
+MD5sum: a2b4d7aa40af2c7ceac91710ff5c5348
 Description: XLibre X server - development files
  This package provides development files for the XLibre ('XLibre') X server.
  This is not quite the same as the DDK (Driver Development Kit) from the
@@ -989,23 +989,23 @@ Description: XLibre X server -- Wacom input driver
 
 Package: xserver-xlibre-legacy
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 226
-Depends: xserver-xlibre-common (>= 2:25.2.1-1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Depends: xserver-xlibre-common (>= 2:25.2.2-1), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
 Conflicts: xserver-xorg-legacy
 Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
-Provides: xserver-xorg-legacy (= 2:25.2.1-1)
+Provides: xserver-xorg-legacy (= 2:25.2.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-legacy_25.2.1-1_arm64.deb
-Size: 34122
-SHA256: 965c004e2134ed64b8feedf05b7bc6225aee4cf137d6a98329e8298bc0a708ee
-SHA1: a467a8e7cc8158e9808286ca36c14c4061ada29d
-MD5sum: 46efb1f8a8838364cd2efca14adaba9b
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-legacy_25.2.2-1_arm64.deb
+Size: 34138
+SHA256: b045e795506966f9e99374f4d4d4acc0456346fb8d9fc445b7316efb16d89cd0
+SHA1: 4dadc59fe3271992ce26da6af605258ccd15620d
+MD5sum: 09a2a7fd999b109246fd58ae2aa095ed
 Description: setuid root XLibre server wrapper
  This package provides a wrapper for the XLibre X server, which is
  necessary for legacy drivers and non-Linux kernels.
@@ -1277,22 +1277,22 @@ Description: XLibre X server -- Voodoo display driver
 
 Package: xserver-xlibre-xephyr
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 2508
-Depends: xserver-xlibre-common (>= 2:25.2.1-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.2), libgbm1 (>= 7.11~1), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Depends: xserver-xlibre-common (>= 2:25.2.2-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.2), libgbm1 (>= 7.11~1), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Conflicts: xserver-xephyr
-Provides: xserver, xserver-xephyr (= 2:25.2.1-1)
+Provides: xserver, xserver-xephyr (= 2:25.2.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-xephyr_25.2.1-1_arm64.deb
-Size: 972258
-SHA256: 20ca7cae6ee97691728e1420004f1b0f14c8fe72e15c909a71ab949f51bacbe1
-SHA1: beb0dbe43357adfe32e327b6825e730d10682a94
-MD5sum: c305228253af095d8f02b9dc378f9084
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-xephyr_25.2.2-1_arm64.deb
+Size: 972478
+SHA256: 8809d97ca02ba83e2fafff799ac6d60756b2eaeba581c292597850da05a023e4
+SHA1: 3e6d22f6e33dc2ed845ad90a85c3d736864d0163
+MD5sum: 4dac6041009f3e4dc5cdfb5a77c3cfbb
 Description: nested X server
  Xephyr is an X server that can be run inside another X server,
  much like Xnest. It is based on the kdrive X server, and as a
@@ -1306,22 +1306,22 @@ Description: nested X server
 
 Package: xserver-xlibre-xfbdev
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 2442
-Depends: xserver-xlibre-common (>= 2:25.2.1-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Depends: xserver-xlibre-common (>= 2:25.2.2-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Conflicts: xserver-xfbdev
-Provides: xserver, xserver-xfbdev (= 2:25.2.1-1)
+Provides: xserver, xserver-xfbdev (= 2:25.2.2-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-xfbdev_25.2.1-1_arm64.deb
-Size: 946894
-SHA256: 88cca75a487b45b86b020655ed4e750901e6b11b4e88599eed4a49acebe43861
-SHA1: fefc9d9108ab436d1c165b8d1333c6423fa62d05
-MD5sum: c379683368144fd0a248496bb2b01b44
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-xfbdev_25.2.2-1_arm64.deb
+Size: 947044
+SHA256: 8f1dc44e7197ea50aaac30ed8114117fbd945e4c7549c904921fa2267981212e
+SHA1: 0834dd1d5a068b2d3d238dd42f25b33e18d2839c
+MD5sum: 107c446c3e9a95c3f0e6d2c5d0e36fd6
 Description: Linux framebuffer device tiny X server
  Xfbdev is a Linux framebuffer device tiny X server based on
  the kdrive X server.
@@ -1333,22 +1333,22 @@ Description: Linux framebuffer device tiny X server
 
 Package: xserver-xlibre-xnest
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 1599
-Depends: xserver-xlibre-common (>= 2:25.2.1-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
+Depends: xserver-xlibre-common (>= 2:25.2.2-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Conflicts: xnest
-Provides: xnest (= 2:25.2.1-1), xserver
+Provides: xnest (= 2:25.2.2-1), xserver
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-xnest_25.2.1-1_arm64.deb
-Size: 643738
-SHA256: ecc5d80832e6f769aaccd69e4b10a8a1d158342517c2cf73eba0862986e416f3
-SHA1: 182c7432d9eca630c23735886688ebb70ad0e685
-MD5sum: f09e68b734a48ff238d57069afd5fb62
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-xnest_25.2.2-1_arm64.deb
+Size: 643666
+SHA256: a4d6976db496540a25ae98c0a1974fc5e82eaf43e70fdb23552d2fe12e77071c
+SHA1: c56de3695cdfe0b34a4caf3f6cdf35ddaf8df51a
+MD5sum: 793ea4a87403e82aecbb3839df66d78d
 Description: Nested X server
  Xnest is a nested X server that simply relays all its requests to another
  X server, where it runs as a client.  This means that it appears as another
@@ -1364,23 +1364,23 @@ Description: Nested X server
 
 Package: xserver-xlibre-xvfb
 Source: xlibre-server
-Version: 2:25.2.1-1
+Version: 2:25.2.2-1
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 2326
-Depends: xserver-xlibre-common (>= 2:25.2.1-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Depends: xserver-xlibre-common (>= 2:25.2.2-1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: xauth
 Conflicts: xvfb
-Provides: xserver, xvfb (= 2:25.2.1-1)
+Provides: xserver, xvfb (= 2:25.2.2-1)
 Multi-Arch: foreign
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xlibre-server/xserver-xlibre-xvfb_25.2.1-1_arm64.deb
-Size: 905262
-SHA256: 3b11260116ee2107be2a6582204c66b92bffd8dd2bca57fa11772d756322a3f8
-SHA1: c13c5a89127d6dbfb8b6fe4edcd5576181e36c0d
-MD5sum: 2a04a27f49fcdd077a00dbeb5c7efd16
+Filename: pool/stable/x/xlibre-server/xserver-xlibre-xvfb_25.2.2-1_arm64.deb
+Size: 905392
+SHA256: 8cde3fd17f8486cf041f378dff359e64ce39244bab77d8c4bc28f3ba903d8871
+SHA1: fca894cb923686d7dcf31ca2299115fd3b236d8c
+MD5sum: f8df7f997adab12eb828afdda6202900
 Description: Virtual Framebuffer 'fake' X server
  Xvfb provides an X server that can run on machines with no display hardware
  and no physical input devices. It emulates a dumb framebuffer using virtual
